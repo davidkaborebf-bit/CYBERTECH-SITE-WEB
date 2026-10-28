@@ -1,0 +1,64 @@
+/* CYBERTECH BURKINA — finition visuelle premium
+   Charger ce fichier après style.css dans index.html. */
+:root{--blue:#1769ff;--cyan:#55e2ff;--ink:#101b2e;--muted:#637188;--light:#f5f8fd;--line:#e4eaf3;--shadow:0 22px 60px rgba(8,28,64,.10)}
+body{font-family:Inter,"Segoe UI",Arial,sans-serif;letter-spacing:-.01em}
+::selection{background:#1769ff;color:#fff}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #55cfff;outline-offset:3px}
+.site-header{background:rgba(5,15,32,.9);box-shadow:0 8px 30px rgba(0,0,0,.08)}
+.brand img{border-color:rgba(85,226,255,.72);box-shadow:0 0 0 4px rgba(85,226,255,.08)}
+.nav-cta{border:1px solid rgba(255,255,255,.12);box-shadow:0 8px 22px rgba(23,105,255,.24);transition:transform .2s,box-shadow .2s}
+.nav-cta:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(23,105,255,.35)}
+.hero{isolation:isolate;background:radial-gradient(ellipse at 76% 30%,rgba(23,105,255,.24),transparent 38%),radial-gradient(ellipse at 8% 95%,rgba(32,202,230,.1),transparent 34%),linear-gradient(125deg,#050d1b,#08172d 58%,#0a1b33)}
+.hero:after{content:"";position:absolute;inset:0;z-index:-1;opacity:.12;pointer-events:none;background-image:radial-gradient(rgba(255,255,255,.7) .7px,transparent .7px);background-size:22px 22px;mask-image:linear-gradient(90deg,transparent,#000 75%)}
+.hero h1{letter-spacing:-3.2px;text-wrap:balance}
+.hero h1 span{background:linear-gradient(100deg,#42b9ff,#73efff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-lead{max-width:530px}
+.button{min-height:48px;border-radius:12px;padding:14px 21px;transition:transform .22s,box-shadow .22s,background .22s}
+.button-primary{background:linear-gradient(115deg,#1769ff,#079ee8);box-shadow:0 12px 28px rgba(23,105,255,.24)}
+.button-primary:hover{box-shadow:0 16px 34px rgba(23,105,255,.34)}
+.hero .button-secondary:hover{background:rgba(255,255,255,.07);border-color:#7290b2}
+.hero-proof{padding:13px 15px;width:fit-content;border:1px solid rgba(255,255,255,.09);border-radius:14px;background:rgba(255,255,255,.035)}
+.proof-icon{box-shadow:0 0 0 5px rgba(53,216,255,.08)}
+.visual-frame{border-color:rgba(100,171,230,.38);background:linear-gradient(145deg,rgba(20,43,73,.96),rgba(5,16,32,.98));box-shadow:0 35px 90px rgba(0,0,0,.42),inset 0 1px rgba(255,255,255,.06)}
+.hero-logo{border:1px solid rgba(255,255,255,.08)}
+.floating-card{backdrop-filter:blur(14px);background:rgba(8,25,47,.88);border-color:rgba(85,180,245,.28)}
+.hero-bottom{color:#a3b5cc}
+.section-heading h2,.about-copy h2,.center-heading h2,.contact-copy h2{letter-spacing:-1.8px;text-wrap:balance}
+.eyebrow{letter-spacing:2.1px}
+.services{background:linear-gradient(180deg,#fff,#fbfcff)}
+.service-card{position:relative;overflow:hidden;border-radius:20px;padding:29px 27px 27px;box-shadow:0 4px 16px rgba(13,35,70,.025)}
+.service-card:before{content:"";position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,#1769ff,#55e2ff);transform:scaleX(0);transform-origin:left;transition:transform .25s}
+.service-card:hover:before{transform:scaleX(1)}
+.service-card:hover{transform:translateY(-6px);box-shadow:0 20px 44px rgba(13,35,70,.09);border-color:#c6ddfa}
+.service-icon{border:1px solid #d8eaff;background:linear-gradient(145deg,#edf6ff,#e4f2ff);box-shadow:inset 0 1px rgba(255,255,255,.9)}
+.service-card h3{letter-spacing:-.35px}
+.service-card>a{display:inline-flex;align-items:center;padding-bottom:3px;border-bottom:1px solid transparent}
+.service-card>a:hover{border-color:#1769ff}
+.about{background:radial-gradient(ellipse at 4% 45%,#e8f3ff 0,transparent 36%),#f5f8fd}
+.portrait-wrap{filter:drop-shadow(0 18px 22px rgba(10,35,75,.07))}
+.portrait{border:5px solid rgba(255,255,255,.92)}
+.portrait-caption{border:1px solid #edf1f7}
+.values>div{padding:12px 13px;border:1px solid rgba(221,231,244,.85);background:rgba(255,255,255,.72);border-radius:12px;transition:transform .2s,box-shadow .2s}
+.values>div:hover{transform:translateX(4px);box-shadow:0 8px 22px rgba(10,35,75,.06)}
+.values>div>span{min-width:36px;text-align:center}
+.project-notice{border:1px dashed #b7d0ef;background:linear-gradient(115deg,#f8fbff,#f1f7ff);padding:30px}
+.notice-icon{box-shadow:0 8px 18px rgba(23,105,255,.12)}
+.process{position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 0%,#12345b,transparent 55%),linear-gradient(120deg,#050f20,#091a31)}
+.process-grid{gap:16px}
+.process-grid article{border:1px solid rgba(151,190,235,.16);border-radius:16px;padding:24px 20px;background:rgba(255,255,255,.025);transition:transform .22s,background .22s,border-color .22s}
+.process-grid article:hover{transform:translateY(-4px);background:rgba(255,255,255,.055);border-color:rgba(85,226,255,.42)}
+.process-number{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border:1px solid rgba(85,226,255,.28);border-radius:11px;background:rgba(85,226,255,.08)}
+.contact{background:radial-gradient(ellipse at 85% 25%,#e5f2ff,transparent 32%),linear-gradient(180deg,#f5f8fd,#fff)}
+.contact-panel{border-radius:28px;border-color:#e5ecf5;box-shadow:0 28px 80px rgba(7,26,57,.10)}
+.contact-detail>span{border:1px solid #d6eaff}
+.contact-form{padding:24px;border:1px solid #e8eef6;border-radius:18px;background:linear-gradient(180deg,#fff,#fbfdff)}
+.contact-form label{color:#263750}
+.contact-form input,.contact-form select,.contact-form textarea{border-color:#dfe7f1;border-radius:11px;background:#fff;transition:border-color .2s,box-shadow .2s}
+.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{border-color:#1769ff;box-shadow:0 0 0 4px rgba(23,105,255,.1)}
+.form-submit{margin-top:10px}
+.footer{background:linear-gradient(115deg,#040b17,#08172b)}
+.footer-brand img{box-shadow:0 0 0 4px rgba(85,226,255,.07)}
+.back-top{transition:color .2s}.back-top:hover{color:#fff}
+@media(max-width:900px){.nav-cta{padding:11px 13px}.hero h1{letter-spacing:-2.4px}.contact-form{padding:20px}}
+@media(max-width:700px){.hero h1{letter-spacing:-2px}.hero-proof{width:100%}.service-card{border-radius:17px}.process-grid article{padding:18px 14px}.contact-panel{border-radius:22px}.contact-form{padding:18px 15px}.portrait-caption{left:-5px;right:8px;padding:13px 14px}}
+@media(prefers-reduced-motion:reduce){.service-card,.values>div,.process-grid article,.nav-cta,.button{transition:none!important}}
